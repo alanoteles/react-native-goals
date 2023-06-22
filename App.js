@@ -29,6 +29,7 @@ export default function App() {
     setCourseGoals((currentCourseGoals) => {
       return currentCourseGoals.filter((goal) => goal.id !== id);
     });
+    
   }
   return (
     <>
